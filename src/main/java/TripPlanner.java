@@ -16,7 +16,7 @@ public class TripPlanner {
         double mpg = sc.nextDouble();
         System.out.println("Enter fuel price: ");
         double price = sc.nextDouble();
-        displayResults(calculateTravelTime(distance, speed), calculateFuelNeeded(mpg, distance), calculateTripCost(distance, mpg, price));
+        displayResults(calculateTravelTime(distance, speed), calculateFuelNeeded(distance, mpg), calculateTripCost(distance, mpg, price));
     }
         // TODO: Calculate travel time using a return method
     public static double calculateTravelTime(double distance, double speed) {
